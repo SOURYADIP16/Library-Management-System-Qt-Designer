@@ -11,7 +11,7 @@
 from PyQt5 import QtCore, QtGui, QtWidgets
 
 import sqlite3
-db = sqlite3.connect('store.db')
+db = sqlite3.connect('LibStore.db')
 cursor = db.cursor()
 
 class Ui_MainWindow(object):
